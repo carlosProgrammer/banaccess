@@ -145,7 +145,7 @@
                   v-model="status"
                   name="checkbox-1"
                 >
-                  Remember Me
+                  Recordar información
                 </b-form-checkbox>
               </b-form-group>
 
@@ -156,22 +156,22 @@
                 block
                 :disabled="invalid"
               >
-                Sign in
+                Iniciar sesión
               </b-button>
             </b-form>
           </validation-observer>
 
           <b-card-text class="text-center mt-2">
-            <span>New on our platform? </span>
+            <span>¿Aún no posee una cuenta? </span>
             <b-link :to="{name:'auth-register'}">
-              <span>&nbsp;Create an account</span>
+              <span>&nbsp; Crear una cuenta nueva</span>
             </b-link>
           </b-card-text>
 
           <!-- divider -->
           <div class="divider my-2">
             <div class="divider-text">
-              or
+              o
             </div>
           </div>
 
