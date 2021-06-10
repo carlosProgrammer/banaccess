@@ -251,8 +251,8 @@ export default {
   data() {
     return {
       status: '',
-      password: 'admin',
-      userEmail: 'admin@demo.com',
+      password: 'email',
+      userEmail: 'email@banaccess.do',
       sideImg: require('@/assets/images/pages/login-v2.svg'),
 
       // validation rules
@@ -299,10 +299,10 @@ export default {
                     component: ToastificationContent,
                     position: 'top-right',
                     props: {
-                      title: `Welcome ${userData.fullName || userData.username}`,
+                      title: `Bienvenido(a) ${userData.fullName || userData.username}`,
                       icon: 'CoffeeIcon',
                       variant: 'success',
-                      text: `You have successfully logged in as ${userData.role}. Now you can start to explore!`,
+                      text: `Haz iniciado sesión como ${userData.role}`,
                     },
                   })
                 })
